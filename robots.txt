@@ -1,0 +1,21 @@
+#Add User-agent for deleting index of a page/pages eg.
+#User-agent: ExampleBot
+#Allow: /
+
+User-agent: DuckDuckBot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Googlebot
+Allow: /
+
+User-agent: YandexBot
+Allow: /
+
+User-agent: *
+Disallow: /
+
+User-agent: archive.org_bot
+Disallow: /
